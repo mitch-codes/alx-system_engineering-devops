@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -all | grep "^drw" | grep [[:alnum:]]$ | wc -l
+find -type d | wc -l
