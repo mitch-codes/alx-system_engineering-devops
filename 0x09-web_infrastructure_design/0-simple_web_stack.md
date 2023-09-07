@@ -1,3 +1,6 @@
+![web stack image](0-simple_web_stack.png)
+
+
 # DNS
 
 Whenever you enter a website domain name into your web browser the web browser first has to convert the domain name into an IP address (Internet Protocol address), this is done with the help of DNS (Domain Name System).
@@ -13,9 +16,11 @@ the TLD server will then direct the resolver to the relevant name server that ha
 
 The web browser then makes an HTTP request to the relevant web server.
 
+
 # SERVER
 
 A sever can either be a physical or virtual device that is used to store resources that are typically requested by users. Servers usually have their own operating system and may be made up of many other virtual servers.
+
 
 # WEB SERVER
 
@@ -23,13 +28,16 @@ The web server is charged with accepting and processing HTTP requests. Depending
 
 HTTP (Hyper Text Transfer Protocol) refers to the rules that govern the flow to data between the server and clients, the client typically sends an HTTP request to the server and receives back an HTTP response.
 
+
 # CODE BASE
 
 the code base holds all html web pages and other resources such as images and videos and is what the web server typically accesses to send information back to the web browser.
 
+
 # Application Server
 
 The application server holds business logic and is used in situations where the user may not require a html page as a response, an example of this is in the case of a super market where a cashier may only need to know the price of one item in store.
+
 
 # MYSQL database
 
