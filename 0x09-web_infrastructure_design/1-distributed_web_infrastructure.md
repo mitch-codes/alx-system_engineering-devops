@@ -1,4 +1,4 @@
-![web stack image](0-simple_web_stack.png)
+![web stack image](1-distributed_web_infrastructure.png)
 
 
 # LOAD BALANCER
