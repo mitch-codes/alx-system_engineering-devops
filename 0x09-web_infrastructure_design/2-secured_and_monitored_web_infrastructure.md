@@ -1,4 +1,4 @@
-![distributed system](1-distributed_web_infrastructure.png)
+![3 server system](2-secured_and_monitored_web_infrastructure.png)
 
 # FIRE WALLS
 
