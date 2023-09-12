@@ -13,3 +13,10 @@ The SSL certificate is issued to the web browser and it contains a public encryp
 
 The monitoring clients are used to monitor the performance of the system and report on the status of the system. This helps network administrators make the necessary changes to improve the network or avoid downtime that can be harmful to the organization.
 
+# Issues of the above infrastructure
+
+- terminating SSL at the load balancer: this means that is no security for the data travelling from the load balamcer to the user and hence data is vulnarable.
+- SPOF: having one database that can be written on may lead to a pile up in a sitution where multiple people want to write data.
+
+
+
