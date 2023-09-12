@@ -15,8 +15,8 @@ The monitoring clients are used to monitor the performance of the system and rep
 
 # Issues of the above infrastructure
 
-- terminating SSL at the load balancer: this means that is no security for the data travelling from the load balamcer to the user and hence data is vulnarable.
-- SPOF: having one database that can be written on may lead to a pile up in a sitution where multiple people want to write data.
+- terminating SSL at the load balancer: this means that is no security for the data travelling from the load balancer to the user and hence data is vulnerable.
+- SPOF: having one database that can be written on may lead to a pile up in a situation where multiple people want to write data.
 
 
 
