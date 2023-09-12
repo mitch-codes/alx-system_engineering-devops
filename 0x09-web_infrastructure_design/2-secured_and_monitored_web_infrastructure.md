@@ -1,13 +1,13 @@
 ![3 server system](2-secured_and_monitored_web_infrastructure.png)
 
-# FIRE WALLS
+# FIREWALLS
 
-The fire walls help to iprove data security by controlling waht IP addresses have access to the severs and blocking any unauthorized IP address from accessing the servers.
+The firewalls help to improve data security by controlling what IP addresses have access to the severs and blocking any unauthorized IP address from accessing the servers.
 
 
 # SSL certificate
 
-Th ssl certificate is issued to the web browser and it contains a public encryption and decreption key that is used to decrept data sent by the sever to the web browser and encrypt data sent from the web browser to the server. THis ensures that data is secure and cannot be intercepted on transit.
+The SSL certificate is issued to the web browser and it contains a public encryption and decryption key that is used to decrypt data sent by the sever to the web browser and encrypt data sent from the web browser to the server. This ensures that data is secure and cannot be intercepted on transit.
 
 # monitoring clients
 
