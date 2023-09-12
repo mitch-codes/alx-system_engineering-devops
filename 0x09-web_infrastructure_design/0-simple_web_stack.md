@@ -44,3 +44,10 @@ The application server holds business logic and is used in situations where the 
 A database is a collection of data that is stored in an organized and structural manner, usually in rows and columns.
 
 MYSQL is a Database Management System (DBMS) that is used to access said data. The web server usually accesses this data with the help of a server side language such as with PHP or Perl, this information is then added to dynamic web pages and returned back to the user.
+
+
+# Issues of the above infrastructure
+
+- SPOF (Single Point of Failure): there is a SPOF in this scenario since we only have one server, if anything happens to the server then the entire system fails
+- Downtime: since we only have one server, the server will have to be shut down during maintenance and deployment of some code may force us to restart the sever.
+- inability to scale: having one server puts a limitation on how much data and traffic the system can handle and so the more users and data is needed the less effective the above infrastructure will be.
