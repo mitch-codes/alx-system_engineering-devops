@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+#instal and rin apache server
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo apt-get -y install ufw
+sudo ufw app list
+sudo ufw allow "Nginx HTTP"
+sudo service nginx start
+echo "my job" > /var/www/html/index.html
+curl 0:80

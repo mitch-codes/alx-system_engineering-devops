@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#add nginx user to prevent nginx from running as root user and set nginx to listen to port 8080
+
+sudo useradd nginx
+sudo sed -i 's/user/user nginx; #/' /etc/nginx/nginx.conf
+sudo sed -i '/http {/a server{\n\tlisten 8080 default_server;\n}' /etc/nginx/nginx.conf
+sudo service nginx restart

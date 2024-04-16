@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# get username of specified user using their privillages
+
+sudo -u $1 whoami
