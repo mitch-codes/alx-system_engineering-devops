@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#genrate ssh key using rsa algorithm
+#specify bit size, name and paraphrase
+ssh-keygen -b 4096 -t rsa -f school -N betty

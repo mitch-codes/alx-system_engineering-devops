@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#connect via ssh using key in specific location
+#use -i flag
+
+ssh -i ~/.ssh/school ubuntu@54.196.197.167

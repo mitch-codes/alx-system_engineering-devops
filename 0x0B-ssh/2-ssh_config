@@ -1,0 +1,4 @@
+#file settings at /etc/ssh/ssh_config
+HOST *
+    PasswordAuthentication no
+    IdentifyFile ~/.ssh/school
